@@ -1,0 +1,44 @@
+body {
+    background-color: coral;
+}
+
+h1 {
+    font-style: italic;
+    font-weight: bolder;
+    color: rgb(230, 0, 0);
+    background-color: cyan;
+
+}
+
+#show_sketch {
+    float: right;
+}
+
+canvas {
+
+    border: 5px solid white;
+    border-radius: 15px;
+    animation-name: canvas;
+    animation-duration: 3s;
+    margin-top: 120px;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes canvas {
+
+    from {
+        box-shadow: 2px 2px 150px white;
+    }
+
+    to {
+        box-shadow: 2px 2px 150px grey;
+    }
+}
+
+p {
+
+    padding-top: 10px;
+    font-size: 30px;
+    font-family: 'Secular One', sans-serif;
+}
